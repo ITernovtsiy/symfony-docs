@@ -112,7 +112,7 @@ performance significantly.
 During container compilation, Symfony generates the file with the list of
 classes to preload. The only requirement is that you need to set both
 ``container.dumper.inline_factories`` and  ``container.dumper.inline_class_loader``
-parameters to ``true``.
+parameters to ``false``.
 
 The preload file path is the same as the compiled service container but with the
 ``preload`` suffix:
